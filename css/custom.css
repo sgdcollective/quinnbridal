@@ -1,0 +1,211 @@
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:#D1D2D4;
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+
+/* ...and position them! */
+html:before{
+    height:20px;
+    left:0;
+    right:0;
+    top:0;
+}
+
+html:after{
+    width:20px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+
+body:before{
+    height:20px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+body:after{
+    width:20px;
+    top:0;
+    bottom:0;
+    left:0;
+}
+
+html { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+p{
+    font-size: 0.9em;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1{
+    font-family: "acta-display",sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input, textarea{
+    border: 1px solid #cccccc;
+    color: #777777;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+}
+
+#homepage{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -119px;
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+    color: #231F20;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a:hover{
+    color: #999999;
+}
+
+ul#nav{
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul#nav li{
+    list-style-type: none;
+    display: inline;
+    text-transform: uppercase;
+    font-size:11px;
+    letter-spacing: 0.2em;
+}
+
+li#designer{
+
+}
+
+li#clients{
+    margin-left:50px;
+}
+
+li#logo-small{
+    margin-left:50px;
+}
+
+li#process{
+    margin-left:50px;
+}
+
+li#contact{
+    margin-left:50px;
+}
+
+/* Designer.php */
+#designerpage{
+    padding:50px;
+    margin-top:30px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+#profilepicture{
+    float:left;
+    display: block;
+    width:50%;
+    min-height: 600px;
+    text-align:right;
+    overflow: scroll;
+}
+
+#profilecontent{
+    float:right;
+    display: block;
+    width:50%;
+    text-align: center;
+}
+
+#profilecontent .padding{
+    padding:50px;
+}
+
+.links{
+    font-family: "acta-display",sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom:1px solid #333333;
+}
+
+.links:hover{
+    border-bottom:1px solid #999999;
+}
+
+.divider{
+    background-image:url(../img/divider.png);
+    background-repeat: no-repeat;
+    display: block;
+    width:25px;
+    height:11px;
+    margin: 0 auto;
+}
+
+
+#contactpage{
+    padding:50px;
+    margin-top:50px;
+}
+
+#contactform{
+    width:40%;
+    margin:0 auto;
+    text-align: left;
+    color: #777777;
+    font-family: "brandon-grotesque",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#contactform td{
+    padding:10px;
+    width:50%;
+}
+
+#contactform input{
+    width:100%;
+    height:25px;
+    margin-top:5px;
+}
+
+#contactform select{
+    width: 100%;
+}
+
+#contactform textarea{
+    width:100%;
+    height:80px;
+}
